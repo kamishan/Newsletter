@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.general{
+    margin: 0 auto;
+    width: 50%;
+    height: 1000px;
+    background-color: blue;
+}
+header{
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-image: url(../Images/electricaribe_banner.png);
+    background-color: #0f4565;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.logo{
+    display: flex;
+    width: 25%;
+    height: 15%;
+    padding: 10px;
+    margin-left: 72%;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+.div1{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #0f4565;
+    margin: 0 auto;
+    color: #cbebf3;
+}
+.div1left,.div1right{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #0f4565;
+    margin: 0 auto;
+    color: #cbebf3;
+}
+.div2{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #cbebf3;
+    margin: 0 auto;
+}
+.div2left,.div2right{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #cbebf3;
+    margin: 0 auto;
+    color: #0f4565;
+}
+.div3{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #0f4565;
+    margin: 0 auto;
+}
+.div3left,.div3right{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #0f4565;
+    margin: 0 auto;
+    color: #cbebf3;
+}
+.div4{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #cbebf3;
+    margin: 0 auto;
+}
+.div4left,.div4right{
+    display: flex;
+    width: 50%;
+    height: 268px;
+    background-color: #cbebf3;
+    margin: 0 auto;
+    color: #0f4565;
+}
+p{
+    display: flex;
+    padding: 5%;
+    font-size: 25px;
+    font-style: initial;
+    margin-top: 15%;
+}
+#app{
+    float: right;
+}
+#pqr{
+
+}
+img{
+    height: 30%;
+    width: 22%;
+    padding-top: 20%;
+}
+#revelde{
+    margin-left: 8%;
+}
